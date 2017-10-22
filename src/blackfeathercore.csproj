@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>BlackfeatherCore</AssemblyName>
+    <RootNamespace>Blackfeather</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
