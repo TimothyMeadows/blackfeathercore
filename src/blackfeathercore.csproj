@@ -6,8 +6,12 @@
     <RootNamespace>Blackfeather</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\bouncycastlecore\bouncycastlecore.csproj" />
+    <Folder Include="BouncyCastle\" />
   </ItemGroup>
 
 </Project>
