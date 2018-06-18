@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>BlackfeatherCore</id>
+        <version>1.0.0</version>
+        <authors>Timothy D Meadows II</authors>
+        <licenseUrl>https://raw.githubusercontent.com/TimothyMeadows/blackfeathercore/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/TimothyMeadows/blackfeathercore/</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Blackfeather for .NET Core 2</description>
+        <dependencies>
+            <group targetFramework=".NETCoreApp2.0">
+                <dependency id="Microsoft.NETCore.App" version="2.0.0" exclude="Build,Analyzers" />
+            </group>
+        </dependencies>
+    </metadata>
+    
+    <files>
+        <file src="lib\netcoreapp2.0\BlackfeatherCore.deps.json" target="lib\netcoreapp2.0\BlackfeatherCore.deps.json" />
+        <file src="lib\netcoreapp2.0\BlackfeatherCore.pdb" target="lib\netcoreapp2.0\BlackfeatherCore.pdb" />
+        <file src="lib\netcoreapp2.0\BlackfeatherCore.dll" target="lib\netcoreapp2.0\BlackfeatherCore.dll" />
+    </files>
+</package>
